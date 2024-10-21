@@ -15,7 +15,22 @@ buildscript {
         classpath("com.android.tools.build:gradle")
         classpath("com.facebook.react:react-native-gradle-plugin")
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin")
+
+
+        // 😊 Google Services プラグインのクラスパスを追加
+        classpath 'com.google.gms:google-services:4.3.15'
     }
 }
 
 apply plugin: "com.facebook.react.rootproject"
+
+// ここに allprojects ブロックを追加
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        // Salesforce Marketing Cloud SDK リポジトリを追加
+        maven { url "https://salesforce-marketingcloud.github.io/MarketingCloudSDK-Android/repository" }
+    }
+}
+

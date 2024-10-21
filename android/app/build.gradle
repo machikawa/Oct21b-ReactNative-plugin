@@ -116,4 +116,16 @@ dependencies {
     } else {
         implementation jscFlavor
     }
+
+    // 😊 Salesforce Marketing Cloud SDK
+    implementation 'com.salesforce.marketingcloud:marketingcloudsdk:8.0.0'
+
+    // 😊 Firebase Messaging for Push Notifications
+    implementation 'com.google.firebase:firebase-messaging:21.0.1'
+
 }
+
+
+
+// 😊 Apply the Google Services plugin
+apply plugin: 'com.google.gms.google-services'
