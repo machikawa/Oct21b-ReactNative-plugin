@@ -1,3 +1,10 @@
+React Native plug in を入れてみた時のサンプルです。
+環境情報は秘匿化してあるのでご自身のものを入れてください。
+GoogleService.jsonもご自身のFirebaseのPJにアプリを登録した上で設定する必要があるよ。
+
+
+https://github.com/salesforce-marketingcloud/react-native-marketingcloudsdk/blob/master/README.md#MCReactModule
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
